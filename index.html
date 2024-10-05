@@ -8,10 +8,85 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <h1 class="mb-4">TEYA BABIIIIIIIIIIIIIIIIIIIIYYYYYY AKUTTTTTTTTTTTTTTTT BANGEEETTTT</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">TEYA BABIIIIIIIIIIIIIIIIIIIIYYYYYY AKUTTTTTTTTTTTTTTTT BANGEEETTTT</h1>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RgRp6XULouwauFRpOFXbs_DM5qgIXT9SZQ&s" alt="Girl in a jacket" class="img-fluid">
-    </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="container mt-5">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container mt-5">
+        <h2>Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Service 1</h3>
+                <p>Description of Service 1.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Service 2</h3>
+                <p>Description of Service 2.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Service 3</h3>
+                <p>Description of Service 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5 mb-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
 
     <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
